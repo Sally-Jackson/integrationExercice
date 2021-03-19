@@ -1,0 +1,77 @@
+
+body{
+    background-color: #29606B;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+h1{
+    margin-top: 60px;
+    font-size: 1.875rem;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+h2{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+div{
+    color: #69A3AE;
+    background-color: #245963;
+    width: 370px;
+    height:462px;
+    /*box-sizing  : border box permet de supprimer le contage de box du navigateur et additionne pas les padding dans la taille de la boite mettre dans tout les fiche de style*/
+}
+
+p{
+    margin: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
+    /* margin: top right botom left sens d'écriture en compact
+    line-height: 1.4; */
+}
+.section1{
+    display: inline-block;
+    /* white space on peut l'enlever en enlevant le saut de ligne dans le html*/
+    border-top: #BB3D53 solid 10px;
+    
+}
+.section2{
+    display: inline-block;
+    border-top: #F4BB44 solid 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.section3{
+    display: inline-block;
+    border-top: #33AE94 solid 10px;
+}
+
+img{
+    clear: both;
+    margin-top: 34px;
+    margin-bottom: 24px;
+    margin-left: 90px;
+    margin-right: 90px;
+
+}
+a{
+    text-transform:uppercase;
+    color: white;
+    text-decoration: none;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+    /* padding : 9 35 ;
+}
+.a1{
+    background-color: #BB3D53;
+}
+.a2{
+    background-color: #F4BB44;
+}
+.a3{
+    background-color: #33AE94;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background/Parallax</title>
+    <style>
+ 
+  .fixed-parallax .image{
+  position: relative;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center top;
+  background-size: cover;
+  /*display: flex; pour aligner le h1*/
+}
+.fixed-parallax .image.one {
+  background-image: url("https://i.pinimg.com/originals/cf/86/52/cf8652b765c5d5aa01ce81d766af3b05.jpg");
+}
+.fixed-parallax .image.two {
+  background-image: url("https://i.ytimg.com/vi/DB-SgmfG_eM/maxresdefault.jpg");
+}
+.fixed-parallax .image.three {
+  background-image: url("https://i.kinja-img.com/gawker-media/image/upload/c_scale,f_auto,fl_progressive,pg_1,q_80,w_800/nujh2rabfzeyh2su7kfe.jpg");
+}
+.fixed-parallax .image.four {
+  background-image: url("https://www.toxsick.fr/wp-content/uploads/2019/03/0.2-birth-by-sleep-945x532.jpg");
+}
+
+.content1 {
+  text-align: center;
+  padding: 50px 30px;
+  font-size: 1.25rem;
+  color: #fff;
+  background-color: rgba(240, 130, 20, 0.75);
+}
+.content2 {
+  max-width: 1000px; /* lorsquelle atteint les 1000px elle arrete de se retracter*/
+  text-align: center;
+  padding: 50px 30px;
+  font-size: 1.25rem;
+  color: #fff;
+  background-color: rgba(59, 38, 17, 0.75);
+}
+.content3 {
+  text-align: center;
+  padding: 50px 30px;
+  font-size: 1.25rem;
+  color: #fff;
+  background-color: rgba(36, 48, 156, 0.75);
+}
+.content4 {
+  text-align: center;
+  padding: 50px 30px;
+  font-size: 1.25rem;
+  color: #fff;
+  background-color: rgba(107, 64, 21, 0.75);
+}
+h1{
+    font-size: 2rem;
+    text-align: center;
+    margin:auto;
+    padding-top: 300px;
+}
+    </style>
+</head>
+<body>
+   
+    <div class="fixed-parallax">
+        <div class="image one"><h1>Le parallax du pauvre</h1></div>
+        
+        <div class="content1">
+            <h1>Content between parallax items</h1>
+            <p>Aenean congue urna magna, ut auctor libero eleifend eu. Phasellus consequat tortor et augue imperdiet tempor. Fusce eu elementum nibh, sed porta lorem. Donec sodales malesuada rhoncus. Aliquam non euismod nisl. Phasellus pulvinar libero felis, eget elementum lectus viverra faucibus. Nam ligula lorem, malesuada ac sem et, porta sodales eros. In vulputate felis ut hendrerit tincidunt. Suspendisse faucibus nec neque quis pharetra. In mattis nec dolor ac mattis. Aenean ut fringilla purus. Aliquam et leo id turpis tempor volutpat.</p>
+        </div>
+        <div class="image two"></div>
+        <div class="content2">
+            <h1>Content between parallax items</h1>
+            <p>Aenean congue urna magna, ut auctor libero eleifend eu. Phasellus consequat tortor et augue imperdiet tempor. Fusce eu elementum nibh, sed porta lorem. Donec sodales malesuada rhoncus. Aliquam non euismod nisl. Phasellus pulvinar libero felis, eget elementum lectus viverra faucibus. Nam ligula lorem, malesuada ac sem et, porta sodales eros. In vulputate felis ut hendrerit tincidunt. Suspendisse faucibus nec neque quis pharetra. In mattis nec dolor ac mattis. Aenean ut fringilla purus. Aliquam et leo id turpis tempor volutpat.</p>
+        </div>
+        <div class="image three"></div>
+        <div class="content3">
+            <h1>Content between parallax items</h1>
+            <p>Aenean congue urna magna, ut auctor libero eleifend eu. Phasellus consequat tortor et augue imperdiet tempor. Fusce eu elementum nibh, sed porta lorem. Donec sodales malesuada rhoncus. Aliquam non euismod nisl. Phasellus pulvinar libero felis, eget elementum lectus viverra faucibus. Nam ligula lorem, malesuada ac sem et, porta sodales eros. In vulputate felis ut hendrerit tincidunt. Suspendisse faucibus nec neque quis pharetra. In mattis nec dolor ac mattis. Aenean ut fringilla purus. Aliquam et leo id turpis tempor volutpat.</p>
+        </div>
+        <div class="image four"></div>
+        <div class="content4">
+            <h1>Content between parallax items</h1>
+            <p>Aenean congue urna magna, ut auctor libero eleifend eu. Phasellus consequat tortor et augue imperdiet tempor. Fusce eu elementum nibh, sed porta lorem. Donec sodales malesuada rhoncus. Aliquam non euismod nisl. Phasellus pulvinar libero felis, eget elementum lectus viverra faucibus. Nam ligula lorem, malesuada ac sem et, porta sodales eros. In vulputate felis ut hendrerit tincidunt. Suspendisse faucibus nec neque quis pharetra. In mattis nec dolor ac mattis. Aenean ut fringilla purus. Aliquam et leo id turpis tempor volutpat.</p>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Vertical</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital@1&display=swap" rel="stylesheet">
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    body{
+    font-family: 'Montserrat Alternates', sans-serif;
+    }
+    section{
+    margin-left:50px;
+    font-size: 2.125rem;
+    border:solid #B90000 3px;
+    margin-bottom: 25px;
+    width: 250px;
+    transition: 0.8s; /* on met dans la transition dans la balise générale pour qu'elle s'apllique sur et le survole et quand on enlève souris */
+    }
+    section:hover{
+        background-color: #B90000;
+        margin-left: 100px;
+        
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    a:hover{
+        color: white;
+    }
+</style>
+</head>
+<body>
+<section><a href="#">Menu1</a></section><section><a href="#">Menu2</a></section><section><a href="#">Menu3</a></section><section><a href="#">Menu4</a></section><section><a href="#">Menu5</a></section>
+</body>
+</html>

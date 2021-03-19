@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>exercice 2</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Qui êtes-vous ?</legend>
+            <p>Les champs marqués de l'astérisque sont obligatoires.</p>
+            
+            <input type="radio" name="bonjour" id="md" required> 
+            <label for="md">Madame</label> <!-- for +="" et id="" sont identique lorsque l'on, veut associer le label a une zone de formulaire-->
+            <input type="radio" name="bonjour" id="md" required>
+            <label for="md">Monsieur</label> <br>
+            <label for="cd" >Nom*</label>
+            <input type="text" name="" id="cd" required><br>
+            <label for="ef">Prénom*</label>
+            <input type="text" name="" required><br>
+            <label for="rt">Email*</label>
+            <input type="email" name="" ><br>
+            <label for="tr">Étude en cours</label>
+            <select name="" > 
+                <option value="">sélectionner le niveau d'étude </option>
+                <option value="">Option 1</option>
+                <option value="">Option 2</option>
+                <option value="">Option 3</option>
+             </select>
+    </fieldset>
+    <fieldset>
+        <legend>Où habitez-vous ?</legend>
+        <label for="">Numéro</label>
+        <input type="text" name="" ><br>
+        <label for="">Voie</label>
+        <input type="text" name="" ><br>
+        <label for="">Code Postal</label>
+        <input type="text" placeholder="5 chiffres" name="" pattern="[0-9 {5}" >
+    </fieldset>
+    <fieldset>
+        <legend>Des remarques ?</legend>
+        <textarea name="" id="" cols="40" rows="10" placeholder="La parole est à vous" ></textarea>
+    </fieldset>
+    <input class="submit" type="submit" value="Envoyer" name="">
+
+    </form>
+</body>
+</html>

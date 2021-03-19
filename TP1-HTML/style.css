@@ -1,0 +1,76 @@
+body{
+    /* background-color : blue; */
+    font-family: 'Montserrat', sans-serif;
+    /*background-image: url(images/pattern.jpg);*/
+    background: linear-gradient(52deg, rgba(234,46,99,1) 0%, rgba(9,9,121,1) 28%, rgba(0,212,255,1) 100%);
+
+}
+h1,h2{
+    color: #ea2e63;
+ text-align: left;
+
+}
+h1{
+    margin-bottom: 60px;
+}
+h2{
+    margin-bottom: 60px;
+}
+
+.ref{
+    color: gray;
+    font-size: 0.8rem;
+    text-transform: uppercase; /* uppercase met en maj sans avoir a changer le texte dans le html*/
+}
+.main{
+    background-color:white;
+    width: 800px;
+   /* border: red solid;*/
+    margin-left:  auto; /* marge exterieur*/
+    margin-right: auto;
+    padding: 32px; /* marge interne les 4*/
+    text-align: justify;
+
+}
+.img-left {
+    float: left;
+    margin-right: 15px;
+}
+.img-right{
+    float: right;
+    margin-left: 15px;
+}
+img{
+    box-shadow: 5px 5px 5px 0 #b36a6a
+}
+blockquote {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 2.3rem;
+}
+a{
+    color:#ea2e63;
+   text-decoration: none;
+}
+
+a:visited{ /* apres viste du lien */
+    color:#e06F8F 
+}
+a:hover{ /*survoler */
+    text-decoration: underline;
+
+}
+a:active{ /* lorsque que l'on clique*/
+    background-color: yellow;
+}
+ .lasuite a{ /* le a est imbriquer dans une boite "lasuite"*/
+background-color: #ea2e63;
+color: #f2eded;
+padding: 8px 24px; /* top, bottom, left,, right dans l'ordre*/
+border-radius: 16px; /* arrondissemnt des bordur*/
+transition: background-color 0.8 ease;
+ }
+ .lasuite a:hover {
+     background-color: #ba0438;
+     text-decoration: none;
+ }
